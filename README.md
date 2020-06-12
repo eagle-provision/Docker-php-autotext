@@ -1,12 +1,19 @@
 # docker-laravel-boilerplate
 Boilerplate for laravel 7 with docker
 
+As example, this is providing following functions
+- Docker environment supported by laradock
+- Load country list
+- Load US statees list
+- List countries and states with pagination
+- User registration and log in function
 
 ## Make docker environment up
+Instead of typing docker-compsoer up in laradock, type following one at the top of project directory
 ```
-cd laravel;
-docker-compose up;
+./docker-compose-up.sh;
 ```
+This will bring up only nginx, mariadb and workspace for laravel, which will save resource.
 
 Install necessary PHP libary for docker container;
 ```
